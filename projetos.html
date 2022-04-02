@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos-Mara Montes</title>
+    <title>Projetosdois-Mara Montes</title>
     <link rel="stylesheet" href="estilo/style.css">
-    <link rel="shortcut icon" href="imagens/ICONE.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="imagens/ICONE.png" type="image/x-icon">    
 </head>
 <body>
     <div class="navbar">
@@ -25,33 +24,41 @@
         </div>
     </div>
 
-    <!--Projetos-->
+<!--Trabalhos-->
+<section class="containerproje">
+<div class="slide-container active">
+    <div class="slide">
+     <div class="contentproje">
+       <h3>FTD Educação - Cursos BNCC</h3>
+       <p>Curso EAD desenvolvido por Mara Montes, com seus serviços de consultoria e designer esducacional, onde atuou no desenvolvido do conteúdo e roteiro das aulas em vídeo. Os cursos abordam o tema da SME - anos finais e BNCC, apontando os novos arranjos para o Ensino Médio.</p>
+       <a href="https://ftd.com.br/" class="bntproj">Saiba mais</a>
+     </div>
+     <div class="img-proj">
+         <img src="imagens/bannerftd_2.png" alt="">
+     </div>
+    </div>
+</div>
 
-    <section class="max-projeto">
-        <div class="page-projeto">
-            <div class="texto-pj">
-                <h1>FTD Educação - Cursos BNCC</h1>
-                <p>Curso EAD desenvolvido por Mara Montes, com seus serviços de consultoria e designer esducacional, onde atuou no desenvolvido do conteúdo e roteiro das aulas em vídeo. <br>
-                    Os cursos abordam o tema da SME - anos finais e BNCC, apontando os novos arranjos para o Ensino Médio. <br>
-                    |Cursos desenvolvido para a <a href="https://ftd.com.br/">FTD Educação</a>.|
-                </p>
-                <img src="imagens/bannerftd_2.png" alt="">
-                <img src="imagens/banner_abncc-cienciashumanas.png" alt="">
-                <img src="imagens/banner_abncc-conceitosgerais.png" alt="">
-            </div>
-        </div>
-        <div class="page-projeto">
-            <div class="texto-pj2">
-                <h1>Escolas conectadas</h1>
-                <p>Mara Montes atuou como analista de Treinamento - Projetos Sociais EAD Analista de Treinamento na Telefônica Brasil. <br>
-                Colaborando com: Participando nas definições de estratégias para a educação a distância. Participação na definição de objetivos, indicadores, metas, escopo, estratégias, macro cronogramas. Pedido e recebimentos de propostas, negociação e liberação de desembolsos a parceiros e fornecedores. Gestão de parcerias. Colaboração com equipe da FT (Brasil e demais países) e áreas da Telefônica. Prospecção, seleção e contratação (briefing, negociação, formalização de contratos e convênios). Reuniões periódicas e acompanhamento por meio de visita in loco, relatórios e demais entregáveis do projeto. Apoio à gerência de Projetos Sociais - Educação à distância, com o foco na formação de professores do Ensino Básico. Pesquisas e participação em eventos sobre temas da educação básica brasileira. <br> 
-                <a href="https://www.escolasconectadas.org.br/cursos">|Escolas conectadas|</a>
-                </p>
-                <img src="imagens/escolaconc.png" alt="escolasconectadas">
-            </div>
-        </div>      
-    </section>
+<div class="slide-container">
+    <div class="slide">
+     <div class="contentproje">
+       <h3>Escolas conectadas</h3>
+       <p>Mara Montes atuou como analista de Treinamento - Projetos Sociais EAD    Analista de Treinamento na Telefônica Brasil. 
+        Colaborando com: Participando nas definições de estratégias para a educação a distância. Participação na definição de objetivos, indicadores, metas, escopo, estratégias, macro cronogramas. Pedido e recebimentos de propostas, negociação e liberação de desembolsos a parceiros e fornecedores. Gestão de parcerias. Colaboração com equipe da FT (Brasil e demais países) e áreas da Telefônica. Prospecção, seleção e contratação (briefing, negociação, formalização de contratos e convênios). Reuniões periódicas e acompanhamento por meio de visita in loco, relatórios e demais entregáveis do projeto. Apoio à gerência de Projetos Sociais - Educação à distância, com o foco na formação de professores do Ensino Básico. Pesquisas e participação em eventos sobre temas da educação básica brasileira.</p>
+       <a href="https://www.escolasconectadas.org.br/cursos" class="bntproj">Saiba mais</a>
+     </div>
+     <div class="img-proj">
+         <img src="imagens/escolaconc.png" alt="">
+     </div>
+    </div>
+</div>
 
+<div id="prev" onclick="prev()"> < </div>
+<div id="next" onclick="next()"> > </div>
+</section>
+
+
+    <!--Footer-->
     <footer>
         <div class="footer-content">
               <a href="https://www.facebook.com/mararmontes" target="_blank">
@@ -69,5 +76,10 @@
             <a href="#">maramontes@gmail.com <br><br></a>
           </div>
       </footer>
-</body>
+      
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="interacao/script.js" ></script>
+    </body>
 </html>
